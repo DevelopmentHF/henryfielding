@@ -13,16 +13,16 @@ export default function HeaderText(props:FullName) {
     return (
         <>
             {firstNameChars.map((char : string, index : number) => (
-                <motion.div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text8xl"
+                <motion.div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text9xl"
                             key={index}
                             initial={{ fontWeight: 'normal' }}
                             whileHover={{ fontWeight: 'bold', scale: 1.1}}>
                     {char}
                 </motion.div>
             ))}
-            <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text8xl">&nbsp;</span> {/* This is a space */}
+            <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text9xl">&nbsp;</span> {/* This is a space */}
             {lastNameChars.map((char : string, index : number) => (
-                <motion.div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text8xl"
+                <motion.div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text9xl"
                             key={index}
                             initial={{ fontWeight: 'normal' }}
                             whileHover={{ fontWeight: 'bold', scale: 1.1 }}>
