@@ -29,13 +29,13 @@ export default function Home() {
         </div>
         <h1 className="text-gray-400">&lt;/ul&gt;</h1>
 
-        <div className="flex items-center">
+        <div className="flex flex-wrap items-center">
 
         <h1 className="text-gray-400">&lt;a&gt;</h1>
-        <a href="https://github.com/developmentHF" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text7xl bg-gray-200 rounded-xl shadow-xl p-4">github</a>
+        <a href="https://github.com/developmentHF" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">github</a>
         <h1 className="text-gray-400">&lt;/a&gt;</h1>
         <h1 className="text-gray-400">&lt;a&gt;</h1>
-        <a href="https://www.linkedin.com/in/henryfielding-aus/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text7xl bg-gray-200 rounded-xl shadow-xl p-4">linkedin</a>
+        <a href="https://www.linkedin.com/in/henryfielding-aus/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">linkedin</a>
         <h1 className="text-gray-400">&lt;/a&gt;</h1>
 
         </div>
