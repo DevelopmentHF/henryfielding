@@ -16,7 +16,8 @@ export default function HeaderText(props:FullName) {
                 <motion.div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text9xl"
                             key={index}
                             initial={{ fontWeight: 'normal' }}
-                            whileHover={{ fontWeight: 'bold', scale: 1.1}}>
+                            whileHover={{ fontWeight: 'bold', scale: 1.1}}
+                            transition={{ ease: 'easeInOut' }}>
                     {char}
                 </motion.div>
             ))}
@@ -25,7 +26,8 @@ export default function HeaderText(props:FullName) {
                 <motion.div className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text9xl"
                             key={index}
                             initial={{ fontWeight: 'normal' }}
-                            whileHover={{ fontWeight: 'bold', scale: 1.1 }}>
+                            whileHover={{ fontWeight: 'bold', scale: 1.1 }}
+                            transition={{ ease: 'easeInOut' }}>
                     {char}
                 </motion.div>
             ))}
