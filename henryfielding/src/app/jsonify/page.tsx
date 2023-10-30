@@ -11,14 +11,14 @@ export default function page() {
 
                <h2 className="mx-4">{"'about': 'aspiring software developer and second-year student @ unimelb',"}</h2>
 
-                <h2 className="mx-4">{"langauges: ["}</h2>
+                <h2 className="mx-4">{"'langauges': ["}</h2>
                 <h2 className="mx-8">{"java,"}</h2>
                 <h2 className="mx-8">{"python,"}</h2>
                 <h2 className="mx-8">{"c,"}</h2>
                 <h2 className="mx-8">{"javascript,"}</h2>
                 <h1 className="mx-4">{"],"}</h1>
 
-               <h2 className="mx-4">{"tech: ["}</h2>
+               <h2 className="mx-4">{"'tech': ["}</h2>
                <h2 className="mx-8">{"mysqlworkbench,"}</h2>
                <h2 className="mx-8">{"pandas,"}</h2>
                <h2 className="mx-8">{"react,"}</h2>
