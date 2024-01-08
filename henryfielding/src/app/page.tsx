@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-gray-400">&lt;/h1&gt;</h1>
 
         <h1 className="text-gray-400">&lt;p&gt;</h1>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text8xl">[aspiring] software developer <span className="font-bold">&&</span> second-year computer science @ <span className="italic">unimelb</span></h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text8xl">[aspiring] software developer <span className="font-bold">&&</span> third-year computer science @ <span className="italic">unimelb</span></h1>
         <h1 className="text-gray-400">&lt;/p&gt;</h1>
 
         <h1 className="text-gray-400">&lt;h2&gt;</h1>
