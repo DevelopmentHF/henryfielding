@@ -4,8 +4,9 @@ export default function Home() {
   return (
     <div className="flex flex-col w-screen items-start justify-center m-2 gap-4">
       <h1 className="text-gray-400">&lt;h1&gt;</h1>
-      <div className="flex">
-        <HeaderText firstName="Henry" lastName="Fielding" />
+    	<h1 className="text-gray-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"> const char* name = </h1> 
+      <div className="flex ">
+		<HeaderText firstName='"Henry' lastName='Fielding"'/>
       </div>
       <h1 className="text-gray-400">&lt;/h1&gt;</h1>
 
@@ -27,12 +28,12 @@ export default function Home() {
           <span className="text-gray-400">&lt;/li&gt;</span>
         </div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">c</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">python</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">javascript</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">react</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">swift</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">pandas</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-<div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">sql</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">python</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">javascript</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">react</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">swift</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">pandas</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">sql</span><span className="text-gray-400">&lt;/li&gt;</span></div>
       </div>
       <h1 className="text-gray-400">&lt;/ul&gt;</h1>
 
