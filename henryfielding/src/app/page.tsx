@@ -12,7 +12,7 @@ export default function Home() {
 
       <h1 className="text-gray-400">&lt;p&gt;</h1>
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-        software developer <span className="font-bold">&amp;&amp;</span> third-year computer science @ <span className="italic">unimelb</span>
+        software developer @ <span className="italic">jocapps</span> <span className="font-bold">&amp;&amp;</span> master of electrical eng @ <span className="italic">unimelb</span>
       </h1>
       <h1 className="text-gray-400">&lt;/p&gt;</h1>
 
@@ -31,6 +31,8 @@ export default function Home() {
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">python</span><span className="text-gray-400">&lt;/li&gt;</span></div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">javascript</span><span className="text-gray-400">&lt;/li&gt;</span></div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">react</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">java</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">lua</span><span className="text-gray-400">&lt;/li&gt;</span></div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">swift</span><span className="text-gray-400">&lt;/li&gt;</span></div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">pandas</span><span className="text-gray-400">&lt;/li&gt;</span></div>
         <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">sql</span><span className="text-gray-400">&lt;/li&gt;</span></div>
@@ -44,6 +46,10 @@ export default function Home() {
 
         <h1 className="text-gray-400">&lt;a&gt;</h1>
         <a href="https://www.linkedin.com/in/henryfielding-aus/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">linkedin</a>
+        <h1 className="text-gray-400">&lt;/a&gt;</h1>
+
+        <h1 className="text-gray-400">&lt;a&gt;</h1>
+        <a href="https://developmenthf.itch.io/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">itch.io</a>
         <h1 className="text-gray-400">&lt;/a&gt;</h1>
       </div>
     </div>
