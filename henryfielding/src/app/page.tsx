@@ -66,7 +66,7 @@ export default function Home() {
       </div>
 
       <div className="flex-col justify-center w-full py-8">
-        <h1 className="font-serif px-4 text-2xl font-bold">Projects</h1>
+        <h1 className="font-serif px-4 text-2xl font-bold">projects</h1>
 
         <Project
           name="medical pantry warehouse management"
