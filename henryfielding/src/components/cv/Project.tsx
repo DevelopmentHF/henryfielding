@@ -10,7 +10,7 @@ interface ProjectProps {
       <div className="font-serif p-4">
         <h2 className="font-semibold">{props.name}</h2>
         <p className="">{props.overview}</p>
-        <ul className="list-disc pl-6">
+        {/* <ul className="list-disc pl-6">
                 {props.tools.map((bullet, index) => (
                     <li key={index}>{bullet}</li>
                 ))}
@@ -19,7 +19,7 @@ interface ProjectProps {
                 {props.finerDetails.map((bullet, index) => (
                     <li key={index}>{bullet}</li>
                 ))}
-        </ul>
+        </ul> */}
       </div>
     );
   }

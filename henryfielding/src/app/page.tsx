@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Experience from "@/components/cv/Experience";
 import Education from "@/components/cv/Education";
 import Project from "@/components/cv/Project";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <div className="flex justify-center w-full">
         <Hero name="henry" summaryText="software developer & masters student" />
       </div>
+
+      <SocialLinks></SocialLinks>
 
       <div className="flex-col justify-center w-full py-8">
         <h1 className="font-serif px-4 text-2xl font-bold">education</h1>
@@ -67,17 +70,51 @@ export default function Home() {
 
         <Project
           name="medical pantry warehouse management"
-          overview="a system to "
+          overview="a custom inventory management system to link a physical warehouse to digital shopify presence"
+          tools={["nextjs", 
+                  "springboot",
+                  "supabase",
+                  "vercel",
+                  "git",
+                  "render"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="matchmenu"
+          overview="macOS minimalistic menu bar application to track the premier league"
           tools={["java", 
             "springboot"]}
           finerDetails={["i did such and such",
             "and also this"
           ]}
         />
-        
+
         <Project
-          name="medical pantry warehouse management"
-          overview="a system to "
+          name="quicklove"
+          overview="löve2d template to bootstrap common patterns of entity & animation management"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="ticketpal"
+          overview="cissa hackathon best tech winner - blind ticket resale auctions"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="plantpal"
+          overview="cissa hackathon - native iOS application for managing gardens with smart care integration"
           tools={["java", 
             "springboot"]}
           finerDetails={["i did such and such",
