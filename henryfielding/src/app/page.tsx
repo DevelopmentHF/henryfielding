@@ -1,57 +1,130 @@
-import HeaderText from "../components/HeaderText";
+import Hero from "../components/Hero";
+import Experience from "@/components/cv/Experience";
+import Education from "@/components/cv/Education";
+import Project from "@/components/cv/Project";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-screen items-start justify-center m-2 gap-4">
-      <h1 className="text-gray-400">&lt;h1&gt;</h1>
-    	<h1 className="text-gray-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"> const char* name = </h1> 
-      <div className="flex ">
-		<HeaderText firstName='"Henry' lastName='Fielding"'/>
+    <div className="flex-col justify-center items-center sm:w-[25%] md:w-[50%] lg:w-[50%] xl:w-[50%] mx-auto">
+      <div className="flex justify-center w-full">
+        <Hero name="henry" summaryText="software developer & masters student" />
       </div>
-      <h1 className="text-gray-400">&lt;/h1&gt;</h1>
 
-      <h1 className="text-gray-400">&lt;p&gt;</h1>
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-        software developer @ <span className="italic">jocapps</span> <span className="font-bold">&amp;&amp;</span> master of electrical eng @ <span className="italic">unimelb</span>
-      </h1>
-      <h1 className="text-gray-400">&lt;/p&gt;</h1>
+      <SocialLinks></SocialLinks>
 
-      <h1 className="text-gray-400">&lt;h2&gt;</h1>
-      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">my tech stack == </h2>
-      <h1 className="text-gray-400">&lt;/h2&gt;</h1>
+      <div className="flex-col justify-center w-full py-8">
+        <h1 className="font-serif px-4 text-2xl font-bold">education</h1>
 
-      <h1 className="text-gray-400">&lt;ul&gt;</h1>
-      <div className="flex flex-wrap gap-2">
-        <div>
-          <span className="text-gray-400">&lt;li&gt;</span>
-          <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">java</span>
-          <span className="text-gray-400">&lt;/li&gt;</span>
-        </div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">c</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">python</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">javascript</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">react</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">java</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">lua</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">swift</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">pandas</span><span className="text-gray-400">&lt;/li&gt;</span></div>
-        <div><span className="text-gray-400">&lt;li&gt;</span><span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">sql</span><span className="text-gray-400">&lt;/li&gt;</span></div>
+        <Education
+          university="university of melbourne"
+          courseName="master of electrical engineering - electronics & embedded systems"
+          startYear="2025"
+          endYear="2027"
+          weightedAverageMark={NaN}
+        />
+
+        <Education
+          university="university of melbourne"
+          courseName="bachelor of science - somputing & software systems"
+          startYear="2022"
+          endYear="2024"
+          weightedAverageMark={78}
+        />
       </div>
-      <h1 className="text-gray-400">&lt;/ul&gt;</h1>
 
-      <div className="flex flex-wrap items-center">
-        <h1 className="text-gray-400">&lt;a&gt;</h1>
-        <a href="https://github.com/developmentHF" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">github</a>
-        <h1 className="text-gray-400">&lt;/a&gt;</h1>
-
-        <h1 className="text-gray-400">&lt;a&gt;</h1>
-        <a href="https://www.linkedin.com/in/henryfielding-aus/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">linkedin</a>
-        <h1 className="text-gray-400">&lt;/a&gt;</h1>
-
-        <h1 className="text-gray-400">&lt;a&gt;</h1>
-        <a href="https://developmenthf.itch.io/" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gray-200 rounded-xl shadow-xl p-4 hover:bg-white hover:text-gray-400">itch.io</a>
-        <h1 className="text-gray-400">&lt;/a&gt;</h1>
+      <div className="flex-col justify-center w-full py-8">
+        <h1 className="font-serif px-4 text-2xl font-bold">experience</h1>
+        <Experience
+          jobTitle="software developer"
+          company="jocapps gmbh"
+          jobStartYear="2024"
+          jobEndYear="present"
+          jobBulletPoints={["developed and maintain iOS and android native webview applications",
+            "implement advanced client customisation features for navigation, loading & styling",
+            "extended existing advertisement framework"
+          ]}
+        />
+        <Experience
+          jobTitle="market research inteviewer"
+          company="csba"
+          jobStartYear="2022"
+          jobEndYear="present"
+          jobBulletPoints={["communicate with up to 240 respondents over the phone per day", 
+            "follow a structured script to maintain market research code of ethics", 
+            "active listening to adapt to respondent's answers and questions"]}
+        />
+        <Experience
+          jobTitle="retail team member"
+          company="hampton food store"
+          jobStartYear="2022"
+          jobEndYear="2022"
+          jobBulletPoints={["solo team member present in the store", 
+            "cash handling", 
+            "open/close responsibility"]}
+        />
       </div>
+
+      <div className="flex-col justify-center w-full py-8">
+        <h1 className="font-serif px-4 text-2xl font-bold">Projects</h1>
+
+        <Project
+          name="medical pantry warehouse management"
+          overview="a custom inventory management system to link a physical warehouse to digital shopify presence"
+          tools={["nextjs", 
+                  "springboot",
+                  "supabase",
+                  "vercel",
+                  "git",
+                  "render"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="matchmenu"
+          overview="macOS minimalistic menu bar application to track the premier league"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="quicklove"
+          overview="löve2d template to bootstrap common patterns of entity & animation management"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="ticketpal"
+          overview="cissa hackathon best tech winner - blind ticket resale auctions"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="plantpal"
+          overview="cissa hackathon - native iOS application for managing gardens with smart care integration"
+          tools={["java", 
+            "springboot"]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+      </div>
+      
+      <div className="h-40"></div> {/* Extra space to scroll */}
     </div>
   );
 }
+
