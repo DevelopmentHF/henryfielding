@@ -26,7 +26,7 @@ export default function Home() {
 
         <Education
           university="university of melbourne"
-          courseName="bachelor of science - somputing & software systems"
+          courseName="bachelor of science - computing & software systems"
           startYear="2022"
           endYear="2024"
           weightedAverageMark={78}
