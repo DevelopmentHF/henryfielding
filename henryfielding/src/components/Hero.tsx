@@ -29,7 +29,7 @@ export default function Hero( props: heroProps ) {
 
     return (
         <div className="flex items-center justify-center min-h-screen px-4 relative">
-          <div className="max-w-2xl text-[#C3F6FF] text-center">
+          <div className="max-w-2xl text-[#f66262] text-center">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-serif mb-6 font-bold">
               henry
             </h1>

@@ -21,7 +21,7 @@ export default function Home() {
           courseName="master of electrical engineering - electronics & embedded systems"
           startYear="2025"
           endYear="2027"
-          weightedAverageMark={NaN}
+          weightedAverageMark={82.67}
         />
 
         <Education
@@ -29,7 +29,7 @@ export default function Home() {
           courseName="bachelor of science - computing & software systems"
           startYear="2022"
           endYear="2024"
-          weightedAverageMark={78}
+          weightedAverageMark={78.78}
         />
       </div>
 
@@ -67,6 +67,34 @@ export default function Home() {
 
       <div className="flex-col justify-center w-full py-8">
         <h1 className="font-serif px-4 text-2xl font-bold">projects</h1>
+
+        <Project
+          name="three way audio crossover with integrated equalizer and vco"
+          overview="full research, simulation and physical implementation of a purely analog crossover network to send stereo audio and generated waveforms to speakers with specific frequency characteristics"
+          tools={["lm4562",
+                  "pam-8302",
+                  "lm555",
+                  "tina-ti",
+                  "ltspice",
+                ]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
+
+        <Project
+          name="fpga digital watch"
+          overview="verilog + quartus timekeeping, stopwatch and alarm functionality"
+          tools={["lm4562",
+                  "pam-8302",
+                  "lm555",
+                  "tina-ti",
+                  "ltspice",
+                ]}
+          finerDetails={["i did such and such",
+            "and also this"
+          ]}
+        />
 
         <Project
           name="medical pantry warehouse management"
