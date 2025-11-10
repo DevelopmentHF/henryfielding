@@ -12,7 +12,7 @@ export default function ScrollArrow( props: scrollState ) {
             !props.isScrolled ? "animate-bounce opacity-100" : "opacity-0"
           }`}
         >
-          <ChevronDown className="w-10 h-10 text-[#C3F6FF]" />
+          <ChevronDown className="w-10 h-10 text-[#f66262]" />
         </div>
       );
 }
